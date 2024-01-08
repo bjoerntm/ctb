@@ -1,0 +1,52 @@
+html {
+	background: #dddddd;
+	margin: 0;
+	padding: 0.5em;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 1.4;
+	margin: 0 auto; /* center */
+	padding: 0;
+	max-width: 55em;
+	border: solid thin darkgray;
+	color: black;
+	background: white;
+}
+
+#headers {
+	background-color: darkslateblue;
+	color: white;
+	text-align: center;
+	padding: 1em;
+	margin: 0em;
+}
+#content {
+	margin: 1em;
+}
+
+.email {
+	font-family: monospace;
+}
+
+h1 {
+	margin: 0;
+}
+
+h2 {
+	margin: 0.5em 0 0 0; /* only space above */
+}
+
+h3 {
+	margin: 1.3em 0 0.1em 0;
+}
+
+h4 {
+	margin: 1em 0 0.1em 0;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
