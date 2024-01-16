@@ -50,3 +50,22 @@ h4 {
 p {
 	margin: 0 0 1em 0;
 }
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	text-align: left;
+	padding: 0.5em 2em 0.5em 0.5em;
+}
+
+th {
+	background-color: darkslateblue;
+	color: white;
+}
+
+td {
+	border-bottom: thin solid lightgray;
+}
+
