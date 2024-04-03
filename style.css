@@ -82,10 +82,12 @@ td {
 	width: 100%;
 }
 
-#program-schedule th:first-child, td:first-child {
-	min-width: 6em;
-}
+@media (min-width: 35em) {
+	#program-schedule th:first-child, td:first-child {
+		min-width: 6em;
+	}
 
-#program-schedule th:nth-child(2), td:nth-child(2) {
-	width: auto;
+	#program-schedule th:nth-child(2), td:nth-child(2) {
+		width: auto;
+	}
 }
